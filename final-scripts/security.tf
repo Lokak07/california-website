@@ -47,3 +47,5 @@ resource "aws_security_group_rule" "egress_all" {
   cidr_blocks      = ["0.0.0.0/0"]
   description      = "Allow all egress traffic"
 }
+
+
