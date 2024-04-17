@@ -14,3 +14,9 @@ variable "cluster_version" {
     type = string
   
 }
+
+variable "ami" {
+    description = "ami value"
+    type = string
+  
+}
