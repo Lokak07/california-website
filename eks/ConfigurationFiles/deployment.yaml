@@ -16,4 +16,4 @@ spec:
       - name: loka07-explore-california
         image: loka07/explore-california
         ports:
-        - containerPort: 80
+        - containerPort: 5000  # Changed port to 5000
