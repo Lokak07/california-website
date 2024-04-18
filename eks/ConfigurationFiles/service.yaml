@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: loka07-explore-california
   labels:
-    app: loka07-explore-california
+    app: explorecalifornia
 spec:
   ports:
   - name: http
@@ -11,5 +11,6 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: loka07/explore-california  # Corrected selector label to match the Deployment
+    app: loka07-explore-california  # Corrected selector label to match the Deployment
   type: LoadBalancer
+
