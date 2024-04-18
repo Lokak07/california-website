@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loka07-explore-california
+  name: explorecalifornia
 spec:
   selector:
     matchLabels:
@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: loka07-explore-california
+        app: explorecalifornia
     spec:
       containers:
       - name: loka07-explore-california
