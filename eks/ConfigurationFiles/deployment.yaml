@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loka07/explore-california
+  name: loka07-explore-california
 spec:
   selector:
     matchLabels:
-      app: loka07/explore-california
+      app: loka07-explore-california
   replicas: 1
   template:
     metadata:
       labels:
-        app: loka07/explore-california
+        app: loka07-explore-california
     spec:
       containers:
-      - name: loka07/explore-california
+      - name: loka07-explore-california
         image: loka07/explore-california
         ports:
         - containerPort: 80
