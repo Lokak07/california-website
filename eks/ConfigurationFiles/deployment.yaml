@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: loka07-explore-california
+      app: explorecalifornia
   replicas: 1
   template:
     metadata:
