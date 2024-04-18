@@ -9,8 +9,7 @@ spec:
   - name: http
     port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 5000  # Changed targetPort to match the container port in the Deployment
   selector:
-    app: loka07-explore-california  # Corrected selector label to match the Deployment
+    app: explorecalifornia  # Corrected selector label to match the Deployment
   type: LoadBalancer
-
